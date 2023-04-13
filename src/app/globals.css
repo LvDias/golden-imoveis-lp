@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media screen and (max-width: 1024px){
+
+  br{
+    @apply hidden;
+  }
+
+}
+
+@layer base {
+  h1 {
+    @apply text-3xl;
+  }
+  h2 {
+    @apply text-2xl;
+  }
+  h3 {
+    @apply text-xl;
+  }
+  p{
+    @apply text-white text-sm;
+  }
+  a {
+    @apply no-underline;
+  }
+}
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
